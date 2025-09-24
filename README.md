@@ -1,29 +1,23 @@
 # Seats
+
 During my internship at Kingston University, facilitated by CSE Connect, I worked with my team to build a web application for managing seating arrangements for our client’s events. I designed and helped implement the app and worked on programming its features, so that planning events would be easier and more efficient.
 
-## Project Objective
-
+## Project Objectives
 
 The client had trouble managing attendee seating for business events, like Christmas parties, and needed a way to organize guests more easily. The project aimed to make event planning simpler and more efficient. The main goals were:
 
--   Automating seating plans to make organizing events easier.
-    
--   Helping manage event and employee data.
-    
--   Allowing easy import and export of data.
-    
--   Creating a user interface that was simple and easy to use.
+- Automating seating plans to make organizing events easier.
+- Helping manage event and employee data.
+- Allowing easy import and export of data.
+- Creating a user interface that was simple and easy to use.
 
 ## Technologies Used
--   React and Node.js for building the web application.
-    
--   JavaScript and CSS for programming and styling.
-    
--   PapaParse for importing and exporting data efficiently.
-    
--   Agile development practices to manage tasks and sprints.
-    
--   Collaboration tools to coordinate work within the team.
+
+- React and Node.js for building the web application.
+- JavaScript and CSS for programming and styling.
+- PapaParse for importing and exporting data efficiently.
+- Agile development practices to manage tasks and sprints.
+- Collaboration tools to coordinate work within the team.
 
 ## User Interface
 
@@ -36,11 +30,16 @@ I also researched modern UI design trends to develop a visual style that feels i
 Using an Agile approach, I adapted the layouts each week to incorporate new requirements. This kept the client involved throughout the process and ensured the final design met their expectations.
 
 The end result is a consistent, user-friendly interface that aligns closely with the client’s identity and provides a professional experience.
-![Wireframes of SeATs on Figma](./../assets/seats/wireframes.jpg)
 
-## LIVE WEBSITE
-Thanks to the collaboration with the deployment and authentication team, the project was successfully deployed! Try it yourself!
-[Live Website](https://appfactory.cseconnect.org/seat/){.btn}
-[CSV File](https://drive.google.com/file/d/1V_otPWjjmxPiB6I2AH-cP498ayS8G4HT/view?usp=sharing){.btn}
-![Me and my team showcasing the demo](./../assets/seats/presentation.jpg)
+These are some screenshots of the wireframes:
+
+![wireframes.png](https://i.postimg.cc/J7FFSq7x/wireframes.png)
+
+Thanks to the collaboration with the deployment and authentication team at Kingston University, the project was successfully deployed! Try it yourself!
+[Live Website](https://appfactory.cseconnect.org/seat/)
+[CSV File](https://drive.google.com/file/d/1V_otPWjjmxPiB6I2AH-cP498ayS8G4HT/view?usp=sharing)
+
+## Additional Notes
+
+- To test the website, create an account and download the CSV file.
 
