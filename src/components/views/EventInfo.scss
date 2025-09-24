@@ -1,0 +1,57 @@
+.eventInfo {
+  color: #fff;
+  padding: 32px;
+
+  width: 100%;
+  margin: 40px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff 1px solid;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.attendeesList {
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto 40px auto;
+
+  h2 {
+    margin-bottom: 14px;
+    font-size: 1.4em;
+    color: #fff;
+  }
+
+  p {
+    opacity: 0.8;
+    font-style: italic;
+  }
+}
+
+.attendeeItem {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.eventItem {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  .eventLocationDate {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+h3 {
+  color: #fff;
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+
+p {
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+div.userCrudler {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & > main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & > div.user {
+      position: sticky;
+      top: 40px;
+    }
+  }
+}
+.userList {
+  width: 100%;
+}
+
+.userViewListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userViewAnimated {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-40px);
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s,
+    transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 0;
+}
+.userViewAnimated.show {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+  margin-bottom: 24px;
+}
+
+.userListAnimated {
+  transition: margin-top 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.userView {
+  margin-bottom: 20px;
+  transition: margin-bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.csv-buttons {
+  display: flex;
+  gap: 10px;
+
+  button {
+    min-width: 120px;
+    padding: 8px 16px;
+    transition: background-color 0.2s ease;
+    border: none;
+
+    &:hover {
+      background-color: rgba(3, 129, 56, 0.1);
+    }
+  }
+}
